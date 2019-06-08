@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<oldcards xmlns="http://www.epam.by/oldcards">
+
+    <oldcard number="card1">
+        <theme>landscape</theme>
+        <type>holiday</type>
+        <country>Belarus</country>
+        <wasSent>true</wasSent>
+        <year>2015</year>
+        <valuable>historical</valuable>
+        <author>
+            <name>Alexander Lomat</name>
+            <authorCountry>Belarus</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card2">
+        <theme>nature</theme>
+        <type>advertising</type>
+        <country>Russia</country>
+        <wasSent>false</wasSent>
+        <year>2013</year>
+        <valuable>thematic</valuable>
+        <author isAlive="false">
+            <name>Dmitriy Kekin</name>
+            <authorCountry>Russia</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card3">
+        <theme>sports</theme>
+        <type>holiday</type>
+        <country>USA</country>
+        <wasSent>false</wasSent>
+        <year>2012</year>
+        <valuable>historical</valuable>
+        <author>
+            <name>Alexander Hleb</name>
+            <authorCountry>Belarus</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card4">
+        <theme>religion</theme>
+        <type>advertising</type>
+        <country>Belarus</country>
+        <wasSent>false</wasSent>
+        <year>1869</year>
+        <valuable>historical</valuable>
+        <author isAlive="false">
+            <name>Efrasinya Polatskaya</name>
+            <authorCountry>Belarus</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card5">
+        <theme>landscape</theme>
+        <type>holiday</type>
+        <country>New Zeland</country>
+        <wasSent>true</wasSent>
+        <year>2004</year>
+        <valuable>thematic</valuable>
+        <author isAlive="true">
+            <name>Brad Pitt</name>
+            <authorCountry>USA</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card6">
+        <theme>people</theme>
+        <type>usual</type>
+        <country>Belarus</country>
+        <wasSent>false</wasSent>
+        <year>2015</year>
+        <valuable>historical</valuable>
+        <author isAlive="true">
+            <name>Artyom Lomat</name>
+            <authorCountry>Belarus</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card7">
+        <theme>landscape</theme>
+        <type>advertising</type>
+        <country>Belarus</country>
+        <wasSent>true</wasSent>
+        <year>2016</year>
+        <valuable>thematic</valuable>
+        <author isAlive="true">
+            <name>Elizaveta Michalevich</name>
+            <authorCountry>Belarus</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card8">
+        <theme>sports</theme>
+        <type>usual</type>
+        <country>Belarus</country>
+        <wasSent>true</wasSent>
+        <year>2017</year>
+        <valuable>thematic</valuable>
+        <author>
+            <name>Denis Novik</name>
+            <authorCountry>Belarus</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card9">
+        <theme>religion</theme>
+        <type>holiday</type>
+        <country>Belarus</country>
+        <wasSent>true</wasSent>
+        <year>2012</year>
+        <valuable>thematic</valuable>
+        <author>
+            <name>Svetlana Lomat</name>
+            <authorCountry>Belarus</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card10">
+        <theme>landscape</theme>
+        <type>holiday</type>
+        <country>Belarus</country>
+        <wasSent>true</wasSent>
+        <year>2014</year>
+        <valuable>historical</valuable>
+        <author isAlive="true">
+            <name>Nick Zhylach</name>
+            <authorCountry>Belarus</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card11">
+        <theme>nature</theme>
+        <type>advertising</type>
+        <country>United Kingdom</country>
+        <wasSent>false</wasSent>
+        <year>2011</year>
+        <valuable>historical</valuable>
+        <author>
+            <name>Tanya Rak</name>
+            <authorCountry>Belarus</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card12">
+        <theme>landscape</theme>
+        <type>holiday</type>
+        <country>Belarus</country>
+        <wasSent>true</wasSent>
+        <year>2010</year>
+        <valuable>thematic</valuable>
+        <author isAlive="true">
+            <name>Alexey Rak</name>
+            <authorCountry>Belarus</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card13">
+        <theme>people</theme>
+        <type>advertising</type>
+        <country>Ukraine</country>
+        <wasSent>true</wasSent>
+        <year>2001</year>
+        <valuable>collection</valuable>
+        <author isAlive="true">
+            <name>Vitaliy Tsal</name>
+            <authorCountry>Ukraine</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card14">
+        <theme>landscape</theme>
+        <type>holiday</type>
+        <country>Turkmenistan</country>
+        <wasSent>true</wasSent>
+        <year>2013</year>
+        <valuable>historical</valuable>
+        <author>
+            <name>Alina Akrami</name>
+            <authorCountry>Turkmenistan</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card15">
+        <theme>sports</theme>
+        <type>usual</type>
+        <country>Ukraine</country>
+        <wasSent>true</wasSent>
+        <year>2012</year>
+        <valuable>collection</valuable>
+        <author isAlive="false">
+            <name>Vitaliy Zhadnich</name>
+            <authorCountry>Ukraine</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card16">
+        <theme>people</theme>
+        <type>advertising</type>
+        <country>China</country>
+        <wasSent>false</wasSent>
+        <year>2010</year>
+        <valuable>historical</valuable>
+        <author>
+            <name>Pasha Bass</name>
+            <authorCountry>China</authorCountry>
+        </author>
+    </oldcard>
+
+</oldcards>

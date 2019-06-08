@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<oldcards xmlns="http://www.epam.by/oldcards">
+
+    <oldcard number="card1">
+        <theme>landscape</theme>
+        <type>holiday</type>
+        <country>Belarus</country>
+        <wasSent>true</wasSent>
+        <year>2015</year>
+        <valuable>historical</valuable>
+        <author isAlive="true">
+            <name>Alexander Lomat</name>
+            <authorCountry>Belarus</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card2">
+        <theme>nature</theme>
+        <type>advertising</type>
+        <country>Russia</country>
+        <wasSent>true</wasSent>
+        <year>2013</year>
+        <valuable>thematic</valuable>
+        <author isAlive="true">
+            <name>Dmitriy Kekin</name>
+            <authorCountry>Russia</authorCountry>
+        </author>
+    </oldcard>
+
+    <oldcard number="card3">
+        <theme>sports</theme>
+        <type>holiday</type>
+        <country>USA</country>
+        <wasSent>true</wasSent>
+        <year>2012</year>
+        <valuable>historical</valuable>
+        <author isAlive="true">
+            <name>Alexander Hleb</name>
+            <authorCountry>Belarus</authorCountry>
+        </author>
+    </oldcard>
+
+</oldcards>

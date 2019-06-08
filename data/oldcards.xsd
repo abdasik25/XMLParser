@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.epam.by/oldcards"
+        xmlns:tns="http://www.epam.by/oldcards"
+        elementFormDefault="qualified">
+
+    <element name="oldcards">
+        <complexType>
+            <sequence>
+                <element name="oldcard" type="tns:oldcard" minOccurs="2" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <complexType name="oldcard">
+        <sequence>
+            <element name="theme" type="tns:theme"/>
+            <element name="type" type="tns:type"/>
+            <element name="country" type="tns:country"/>
+            <element name="wasSent" type="boolean" default="false"/>
+            <element name="year" type="tns:year"/>
+            <element name="valuable" type="tns:valuable" nillable="true"/>
+            <element name="author">
+                <complexType>
+                    <sequence>
+                        <element name="name" type="tns:authorName"/>
+                        <element name="authorCountry" type="tns:country"/>
+                    </sequence>
+                    <attribute name="isAlive" type="boolean" default="true"/>
+                </complexType>
+            </element>
+        </sequence>
+        <attribute name="number" type="tns:number" use="required"/>
+    </complexType>
+
+    <simpleType name="type">
+        <restriction base="string">
+            <enumeration value="holiday"/>
+            <enumeration value="advertising"/>
+            <enumeration value="usual"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="authorName">
+        <restriction base="string">
+            <pattern value="[\D]{1,30}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="theme">
+        <restriction base="string">
+            <enumeration value="landscape"/>
+            <enumeration value="nature"/>
+            <enumeration value="sports"/>
+            <enumeration value="people"/>
+            <enumeration value="religion"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="valuable">
+        <restriction base="string">
+            <enumeration value="historical"/>
+            <enumeration value="collection"/>
+            <enumeration value="thematic"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="year">
+        <restriction base="gYear">
+            <minInclusive value="1869"/> <!---Google-->
+            <maxInclusive value="2019"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="country">
+        <restriction base="string">
+            <pattern value="[\D]{1,20}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="city">
+        <restriction base="string">
+            <pattern value="[\D]{1,15}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="number">
+        <restriction base="ID"/>
+    </simpleType>
+
+</schema>
