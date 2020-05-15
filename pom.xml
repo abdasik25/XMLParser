@@ -20,7 +20,7 @@
     </build>
 
     <properties>
-        <jackson.version>2.7.4</jackson.version>
+        <jackson.version>2.11.0</jackson.version>
         <log4j.version>2.11.2</log4j.version>
     </properties>
 
